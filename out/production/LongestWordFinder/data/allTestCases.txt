@@ -1,0 +1,7 @@
+The quick brown fox jumped in the river|Longest Word - jumped : Length - 6|simple test with longest word in given sentence
+Did the fox jump in the river?|Longest Word - river : Length - 5|test with punctuation mark
+The fox, frog and rat jump in the pond|Longest Word - frog : Length - 4|another test with punctuation mark
+The fox jump123 in the river|Longest Word - river : Length - 5|test with numbers in the word
+ Good Day |Longest Word - Good : Length - 4|test with leading and trailing whitespaces
+!!*&@#|Invalid Input|test with special character
+|Empty Input String|test with no input
