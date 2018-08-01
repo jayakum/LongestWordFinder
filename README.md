@@ -65,7 +65,7 @@ Longest Word - <Expected Longest Word> : Length - <Expected Longest Word Length>
 This result will be compared against expected result in test data file,i.e., Longest Word - evening : Length - 7
 
 ## Running the tests
-In order to get project in local machine, open below github url:
+In order to get project in local machine, open github url:
 https://github.com/jayakum/LongestWordFinder/
 
 User can either download the project directly or clone the repository.
@@ -80,7 +80,7 @@ Run below command in directory where project will be saved
 git clone https://github.com/jayakum/LongestWordFinder.git
 ``````````
 
-## Steps to Run test from terminal/command prompt
+## Run tests from terminal/command prompt
 Go to project base directory and run below command:
 ````````````
 $ java -cp "out/artifacts/LongestWordFinder_jar/LongestWordFinder.jar" org.testng.TestNG testng.xml (For Mac)
@@ -101,11 +101,13 @@ Total tests run: 9, Failures: 0, Skips: 0
 By default, test data is coming from $PROJECT_BASE_DIRECTORY/resources/data/allTestCases.txt. If you want to provide your own test data file in runtime, use VM option as below
 ````````````
 $ java -DtestDataFilePath=path/to/test/data/file -cp "out//artifacts//LongestWordFinder_jar//LongestWordFinder.jar" org.testng.TestNG testng.xml (For Mac)
+
 $ java -DtestDataFilePath=path//to//test//data//file -cp "out//artifacts//LongestWordFinder_jar//LongestWordFinder.jar" org.testng.TestNG testng.xml (For Windows)
 ````````````
 User can also run the main program directly and provide input for each run, by using below command in project base directory:
 ````````````
 $ java -cp "out/artifacts/LongestWordFinder_jar/LongestWordFinder.jar" com.longestWordFinder.LongestWordFinder (For Mac)
+
 $ java -cp "out//artifacts//LongestWordFinder_jar//LongestWordFinder.jar" com.longestWordFinder.LongestWordFinder (For Windows)
 ````````````
 It will prompt user to enter input sentence as below 
@@ -114,7 +116,7 @@ It will prompt user to enter input sentence as below
 
 ``````````````
 
-## Steps to Run test from IDE (Intellij)
+## Run tests from IDE (Intellij)
 Open Intellij
 
 Click File -> New Project from Existing Sources
@@ -143,6 +145,7 @@ Results can be viewed in xml or html format
 To view html report from command prompt, use below command
 ``````````
 $ open $PROJECT_BASE_DIRECTORY/test-output/index.html (For Mac)
+
 $ start $PROJECT_BASE_DIRECTORY//test-output//index.html (For Windows)
 ``````````
 
