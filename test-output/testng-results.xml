@@ -2,17 +2,17 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-    <suite name="LongestWordFinderTestSuite" duration-ms="335" started-at="2018-07-31T19:59:10Z"
-           finished-at="2018-07-31T19:59:10Z">
+    <suite name="LongestWordFinderTestSuite" duration-ms="349" started-at="2018-08-01T04:00:29Z"
+           finished-at="2018-08-01T04:00:29Z">
     <groups>
     </groups>
-        <test name="LongestWordFinderTest" duration-ms="335" started-at="2018-07-31T19:59:10Z"
-              finished-at="2018-07-31T19:59:10Z">
+        <test name="LongestWordFinderTest" duration-ms="349" started-at="2018-08-01T04:00:29Z"
+              finished-at="2018-08-01T04:00:29Z">
       <class name="com.longestWordFinder.LongestWordFinderTest">
           <test-method status="PASS"
                        signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="315" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
+                       name="testGetLongestWordAndLength" duration-ms="327" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
           <params>
             <param index="0">
               <value>
@@ -30,8 +30,8 @@
         </test-method> <!-- testGetLongestWordAndLength -->
           <test-method status="PASS"
                        signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="1" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
+                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
           <params>
             <param index="0">
               <value>
@@ -49,8 +49,8 @@
         </test-method> <!-- testGetLongestWordAndLength -->
           <test-method status="PASS"
                        signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
+                       name="testGetLongestWordAndLength" duration-ms="1" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
           <params>
             <param index="0">
               <value>
@@ -68,8 +68,46 @@
         </test-method> <!-- testGetLongestWordAndLength -->
           <test-method status="PASS"
                        signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
+                       name="testGetLongestWordAndLength" duration-ms="1" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[!!*&@#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                  <![CDATA[Invalid Input]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLongestWordAndLength -->
+          <test-method status="PASS"
+                       signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
+                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                  <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                  <![CDATA[Longest Word - Hello : Length - 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLongestWordAndLength -->
+          <test-method status="PASS"
+                       signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
+                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
           <params>
             <param index="0">
               <value>
@@ -87,27 +125,8 @@
         </test-method> <!-- testGetLongestWordAndLength -->
           <test-method status="PASS"
                        signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="1" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ Good Day ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Longest Word - Good : Length - 4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetLongestWordAndLength -->
-          <test-method status="PASS"
-                       signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
+                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
           <params>
             <param index="0">
               <value>
@@ -120,41 +139,22 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetLongestWordAndLength -->
-          <test-method status="PASS"
-                       signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Empty Input String]]>
-              </value>
-            </param>
-          </params>
               <reporter-output>
               </reporter-output>
           </test-method> <!-- testGetLongestWordAndLength -->
           <test-method status="PASS"
                        signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
+                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
               <params>
                   <param index="0">
                       <value>
-                          <![CDATA[Hello]]>
+                          <![CDATA[ Good Day ]]>
                       </value>
                   </param>
                   <param index="1">
                       <value>
-                          <![CDATA[Longest Word - Hello : Length - 5]]>
+                          <![CDATA[Longest Word - Good : Length - 4]]>
                       </value>
                   </param>
               </params>
@@ -163,17 +163,17 @@
           </test-method> <!-- testGetLongestWordAndLength -->
           <test-method status="PASS"
                        signature="testGetLongestWordAndLength(java.lang.String, java.lang.String)[pri:0, instance:com.longestWordFinder.LongestWordFinderTest@3b764bce]"
-                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T14:59:10Z"
-                       data-provider="testCases" finished-at="2018-07-31T14:59:10Z">
+                       name="testGetLongestWordAndLength" duration-ms="0" started-at="2018-07-31T23:00:29Z"
+                       data-provider="testCases" finished-at="2018-07-31T23:00:29Z">
               <params>
                   <param index="0">
                       <value>
-                          <![CDATA[!!*&@#]]>
+                          <![CDATA[]]>
                       </value>
                   </param>
                   <param index="1">
                       <value>
-                          <![CDATA[Invalid Input]]>
+                          <![CDATA[Empty Input String]]>
                       </value>
                   </param>
               </params>
