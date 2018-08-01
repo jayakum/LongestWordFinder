@@ -51,7 +51,7 @@ User can add more test cases in the same file in correct format and run the test
 User can also provide any other test data text file during runtime using VM option in command-line or in IDE
 
 Test Data file follows following format:
-<Test Input Sentence>|Longest Word - <Expected Longest Word> : Length - <Expected Longest Word Length>|Comment about the test case (Optional)
+Test Input Sentence|Longest Word - Expected Longest Word : Length - Expected Longest Word Length|Comment about the test case (Optional)
 
 Please note there is space before Expected Longest Word Length
 
@@ -60,7 +60,7 @@ For eg.
 Have a nice evening|Longest Word - evening : Length - 7
 ````````
 will provide "Have a nice evening" as input to driver program LongestWordFinder.java, which will return result in the format
-Longest Word - <Expected Longest Word> : Length - <Expected Longest Word Length>
+Longest Word - Expected Longest Word : Length - Expected Longest Word Length
 
 This result will be compared against expected result in test data file,i.e., Longest Word - evening : Length - 7
 
