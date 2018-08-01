@@ -33,7 +33,7 @@ public class LongestWordFinder {
             result = "Invalid Input";
         } else {
             List<String> longestWordList = Arrays.stream(words)
-                    .filter(word -> word.length() >= longestWordLength)
+                    .filter(word -> word.length() == longestWordLength)
                     .collect(Collectors.toList());
             longestWords = longestWordList.toString().replaceAll("^.|.$", "");
             result = "Longest Word - " + longestWords + " : Length - " + longestWordLength;
