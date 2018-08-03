@@ -5,5 +5,6 @@ The frog and rat jump in the pond|Longest Word - frog, jump, pond : Length - 4|t
 The fox jump123 in the river|Longest Word - river : Length - 5|test with numbers in the word
  Good Day |Longest Word - Good : Length - 4|test with leading and trailing whitespaces
 Hello|Longest Word - Hello : Length - 5|test with single word
+P|Longest Word - P : Length - 1|test with single letter
 !!*&@#|Invalid Input|test with special character
 |Empty Input String|test with no input

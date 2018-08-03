@@ -25,20 +25,37 @@ public class LongestWordFinder {
         String result, longestWords;
         String[] words = input.trim().replaceAll("[^a-zA-Z ]", "").split("\\s+");
 
-        int longestWordLength = Arrays.stream(words).map(String::length).max(Integer::compareTo).orElse(0);
+        int longestWordLength = getMaximumLength(words);
 
         if (input.isEmpty()) {
             result = "Empty Input String";
         } else if (longestWordLength == 0) {
             result = "Invalid Input";
         } else {
-            List<String> longestWordList = Arrays.stream(words)
-                    .filter(word -> word.length() == longestWordLength)
-                    .collect(Collectors.toList());
-            longestWords = longestWordList.toString().replaceAll("^.|.$", "");
+            longestWords = getLongestWordListAsString(words, longestWordLength);
             result = "Longest Word - " + longestWords + " : Length - " + longestWordLength;
         }
         return result;
+    }
+
+    /**
+     * @param words array of words formed from input sentence
+     * @return length of the longest word in given array
+     */
+    int getMaximumLength(String[] words) {
+        return Arrays.stream(words).map(String::length).max(Integer::compareTo).orElse(0);
+    }
+
+    /**
+     * @param words             array of words formed from input sentence
+     * @param longestWordLength length of the longest word in input sentence
+     * @return longest words from given words array
+     */
+    String getLongestWordListAsString(String[] words, int longestWordLength) {
+        List<String> longestWordList = Arrays.stream(words)
+                .filter(word -> word.length() == longestWordLength)
+                .collect(Collectors.toList());
+        return longestWordList.toString().replaceAll("^.|.$", "");
     }
 
     public static void main(String[] args) {

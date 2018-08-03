@@ -45,7 +45,7 @@ String getLongestWordAndLength(String input)
 
 ## Test Data Overview
 Test is getting test data dynamically from allTestCases.txt file located in $PROJECT_BASE_DIRECTORY/resources/data 
-There are 9 test cases in this file. 
+There are 10 test cases in this file. 
 
 User can add more test cases in the same file in correct format and run the tests.
 User can also provide any other test data text file during runtime using VM option in command-line or in IDE
