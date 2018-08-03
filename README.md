@@ -96,7 +96,7 @@ It will run all the test cases
 
 ===============================================
 LongestWordFinderTestSuite
-Total tests run: 9, Failures: 0, Skips: 0
+Total tests run: 10, Failures: 0, Skips: 0
 ===============================================
 ``````````````
 By default, test data is coming from $PROJECT_BASE_DIRECTORY/resources/data/allTestCases.txt. If you want to provide your own test data file in runtime, use VM option as below
